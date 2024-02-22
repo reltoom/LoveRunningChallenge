@@ -90,7 +90,7 @@ main {
 	background-color: lightblue;
 /* Make main element take up any suprlus space to push footer down	*/
 	flex: 1 0 auto;
-	margin-top: 80px;
+	margin-top: 47px;
 }
 /*footer*/
 footer {
@@ -118,5 +118,17 @@ footer {
 
 	.nav-toggle-label {
 		display: none;
+	}
+
+	#logo {
+		font-size: 200%;
+		line-height: 75px;
+		margin: 0 0.5rem;
+	}
+
+/* Main content	*/
+	main {
+		/*	push main content down to accomodate larger header	*/
+		margin-top: 79px;
 	}
 }
