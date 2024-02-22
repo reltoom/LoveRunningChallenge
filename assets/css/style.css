@@ -90,7 +90,7 @@ main {
 	background-color: lightblue;
 /* Make main element take up any suprlus space to push footer down	*/
 	flex: 1 0 auto;
-	margin-top: 47px;
+	margin-top: 80px;
 }
 /*footer*/
 footer {
